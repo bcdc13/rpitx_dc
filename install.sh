@@ -3,7 +3,6 @@
 cd src || exit
 git clone https://github.com/F5OEO/librpitx
 cd librpitx/src || exit
-make && sudo make install
 cd ../../ || exit
 
 make
