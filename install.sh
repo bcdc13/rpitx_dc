@@ -3,11 +3,10 @@
 cd src || exit
 git clone https://github.com/F5OEO/librpitx
 cd librpitx/src || exit
-make
+make && sudo make install
 cd ../../ || exit
 
-make
-sudo make install
+make && sudo make install
 cd .. || exit
 
 LINE='gpu_freq=250'
