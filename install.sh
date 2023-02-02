@@ -3,6 +3,7 @@
 cd src || exit
 git clone https://github.com/F5OEO/librpitx
 cd librpitx/src || exit
+make
 cd ../../ || exit
 
 make
